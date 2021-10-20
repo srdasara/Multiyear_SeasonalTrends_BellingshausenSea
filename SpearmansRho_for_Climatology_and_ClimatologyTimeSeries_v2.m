@@ -1,6 +1,7 @@
 %%
 
-% Here, I'm looking at the temporal correlation between CMOD, Ice, chl-a, and wind speed and plotting a figure to visualize trends. I have calculated rho with a lag, as seen in this script. 
+% Here, I'm looking at the temporal correlations between MAOD, Ice, chl-a, and wind speed and plotting a figure to visualize trends. 
+% I have calculated rho with a lag, as seen in this script. 
 
 
 %%
@@ -241,18 +242,6 @@ saveas(gcf, 'Spearmans_rho_CMOD_chl_a', 'fig') ;
 saveas(gcf, 'Spearmans_rho_CMOD_chl_a', 'png') ; 
 
 
-
-
-
-
-
-
-% %%
-% saveas(gcf, 'spearmans_rho_6mthlag_CMOD_Wind_Ice_Chl_a', 'fig') ; 
-% 
-% saveas(gcf, 'spearmans_rho_6mthlag_CMOD_Wind_Ice_Chl_a.png') ; 
-
-%%
 
 
 
